@@ -1,0 +1,97 @@
+.logo{
+    
+    justify-content: left;
+    align-items: left;
+    top:0;
+}
+.titre{
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left:15px ;
+    padding-right: 15px;
+    background-image: url("../pictures/bkgd_page.jpg");
+    background-size: cover;
+}
+.conteneur{
+ background-color:white;
+   
+}
+
+
+.main-content img {
+    /* Limitez la taille de l'image pour éviter qu'elle ne dépasse */
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.main-menu ul, main-menu li {
+    marging:0;
+    padding:0;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    top:0;
+}    
+.main-menu li {
+display:inline ;
+}
+.main-menu a {
+    color:white;
+    text-decoration:none;
+    padding:0px 10px;
+    font-size:20px;
+}
+.main-menu a:hover {
+    color: rgb(16, 107, 120);
+    background-color: white;
+}
+nav li:not(:last-child) {
+    border-right: 1px solid black; /* Bordure verticale à droite de chaque élément de liste sauf le dernier */
+}
+
+
+.date{
+    font-size:10px;
+}
+
+.photos{
+    height: 150px;
+    width: 200px;
+}
+article{
+    width: 280px;
+    float: center;
+}
+main{
+    width: 280px;
+    float: left;
+}
+.vignettes img {
+    margin: 10 px; /* Espace entre les images */
+    float: right;
+}
+
+hr{
+    border:none;
+    border-top:1px solid black;
+    margin: 20px 0;
+}
+.vignettes a{
+    text-decoration:none;
+    color: #b32;
+    margin: 40px; 
+    flex-direction: row;
+}
+
+.vignettes a:hover {
+    color: #4c4c4b;
+}
+
