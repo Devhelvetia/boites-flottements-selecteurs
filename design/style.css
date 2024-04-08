@@ -27,7 +27,8 @@
 } 
 main{
     background-color:white;
-    margin-left:60px ;
+    margin:90px ;
+    
 }
 
 .paysage{
@@ -90,7 +91,11 @@ article{
 
 .conteneur{
     display: flex;
-} 
+    justify-content: center;
+    align-items: center;
+    
+}
+
 .armées{
     margin-left: 10px;
     width: 30%;  
@@ -98,25 +103,23 @@ article{
     
 
 .vignettes img {
-   
-    float: right; 
     display: flex;
+    width: 184px;
 }
 .clear{
     clear: both;
 }
-hr{
-    border:none;
-    border-top:1px solid black;
-    margin: 20px 0;
-}
-.vignettes a{
+
+.vignettes span{
     text-decoration:none;
     color: #b32;
-    
-    flex-direction: row;
+    margin: 20px;
+    flex-direction:column;
     float: right;
-    display: flex;
+    display: flex; 
+}
+.vignettes{
+  width: 184px;  
 }
 
 .vignettes a:hover {
